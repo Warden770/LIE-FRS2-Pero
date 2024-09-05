@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgba(232,220,206,255); */
+}
+
+/* Header Styles */
+.header,
+.header li a,
+.shopping_cart {
+  color: #f5f7f8;
+}
+
+/* .shopping_cart,
+.order-now ul {
+  color: #00712d;
+} */
+
+.header {
+  background-color: #379777;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  font-size: 1rem;
+  color: #f5f7f8;
+}
+
+.header li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-bottom {
+  border-bottom: 0.1rem solid rgba(106, 107, 107, 0.521);
+}
+
+.ordernow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.ordernow a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.shopping_cart {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #379777;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.shopping_cart i {
+  margin-right: 8px;
+}
+
+/* Optional: Add a hover effect */
+.shopping_cart:hover {
+  background-color: #f1f1f1; /* Slightly different background color on hover */
+}
+
+/* Targeting only the Font Awesome icon */
+.button .fa-shopping-cart {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+/* Brand and Button Styles */
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+/* img {
+  object-fit: fit;
+}
+
+.brand img {
+  margin-right: 10px;
+} */
+
+.order-now button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Content Styles */
+.content {
+  overflow: hidden;
+  text-align: center;
+  margin: 2rem 10rem;
+  height: 400px;
+  margin-bottom: 2rem;
+}
+
+.content img {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.content_text {
+  font-size: 8rem;
+  color: #45474b;
+  position: relative;
+  bottom: 275px;
+  /* text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); */
+}
+
+/* Featured Styles */
+.featured {
+  font-size: 1.5rem;
+  margin: 2rem 9rem;
+  padding-bottom: 10px;
+}
+
+.custom-animation {
+  animation-duration: 4s;
+}
+
+/* Grid Content Styles */
+.grid-content {
+  display: grid;
+  color: blue;
+  text-align: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(300px, auto);
+  margin: 2rem 10rem; /* Consistent margin */
+  width: calc(100% - 290px); /* Adjust width to align with margins */
+}
+
+/* Ensure images and content are consistent */
+.grid-content .grid-items {
+  color: #45474b;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-items img {
+  width: 100%;
+  border-radius: 1rem; /* Apply border-radius to the image */
+  object-fit: cover;
+  height: 200px;
+}
+
+.grid-content .grid-items div {
+  border: 0;
+  padding: 0;
+}
+
+.grid-content div {
+  border: solid rgba(106, 107, 107, 0.521) 0.1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column; /* Ensure consistent content layout */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.product-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.price,
+.description {
+  margin-bottom: -0.5rem;
+}
+
+.order-now {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background-color: #379777;
+  color: #f5f7f8;
+  transition: background-color 1s, color 1s;
+}
+
+.order-now:hover {
+  background-color: #379777c9;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f1f1f1; /*rgba(10,10,10,255) */
+}
+
+.information {
+}
+
+.info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 0;
+}
+
+.info a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Link color */
+}
+
+.info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+.techfooter{
+
+  text-align: center;
+}
